@@ -18,7 +18,7 @@ const Users = () => {
     const fetchUsers = async () => {
       setLoading(true); // Set loading to true before fetching
       try {
-        const response = await fetch("https://back-up-office-panel.vercel.app/users");
+        const response = await fetch("https://back-up-office-panel-1hlc.vercel.app/users");
         const data = await response.json();
         setRows(data);
       } catch (error) {
